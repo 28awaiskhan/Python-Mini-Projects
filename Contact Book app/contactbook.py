@@ -1,9 +1,5 @@
 #empty Dict
-
 contacts = {}
-
-
-
 
 while True:
     print("\nContact Book app")
@@ -64,7 +60,7 @@ while True:
             print(f"This is Your Contact {name}")
         else:
             print("Contact Not Found")
-            
+
 #Count contact
     elif choice == '6':
         print(f"Total Contact = {len(contacts)}")
