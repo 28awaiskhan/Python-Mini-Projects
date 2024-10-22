@@ -49,6 +49,7 @@ if another_msg1 == "Yes" or 'yes' or 'YES':
 else:
     print('its not available')
 
+
 # item 3
 another_msg2 = input("Do you want to order anything else?(Yes/No)")
 
@@ -67,6 +68,7 @@ f'''
 2. {item_2} Rs.{menu[item_2]}
 3. {item_3} Rs.{menu[item_3]}
 Your total Bill Amount {orderRs}''')
+
 
 
 
